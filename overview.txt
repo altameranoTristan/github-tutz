@@ -1,0 +1,72 @@
+|.                                [Visualization]
+|
+|   Working Tree            > Repo              > GitHub
+|__________________________________________________________________________________________________________________________________________________
+|   *staging area           *local repo         *remote repo 
+|   *                       *commit
+|   *                       *version
+|
+|--------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+git init 
+\-> to add .git folder and tracks all changes
+
+
+__________________________________________________________________________________________________________________________________________________
+git add .
+\-> to push the changes into the working tree
+
+git commit      -m "your message ex. version [number]"
+\-> to make commit/version of all the contents in the working tree
+
+    git status 
+    \-> displays the state of the working directory and the staging area
+
+    git log     --all --graph
+    \-> displays all the versions have been commited 
+
+    git amend -m "version x - forgot something"
+    \-> just incase you forgot to set version number or add something before you commit 
+        doesn't create a new version, basically it will just overwrite the latest version
+        *creates a branch* 
+        *github will reject all branches versions, git push -f      will force it*
+
+
+====================================================================================================================================================
+
+git remote add origin [github link]
+\-> to create origin and also link the commit in your github account
+
+____________________________________________________________________________________________________________________________________________________
+    git remote -v
+    \-> to view the origin and linked github
+
+    git config --global credential.username "[github username]"
+    \-> to set your github username
+
+
+
+git push origin master      [*origin* github repo nickname] [*master* local repo]
+\-> to push all the commit into the github repo
+    *working tree contents are not included* 
+
+    git push origin master --set-upstream
+    \-> sets a shortcut      
+        git push = git push origin master
+
+git push -f
+\-> will forcefully push the braches repo
+
+
+
+
+
+
+
+     
