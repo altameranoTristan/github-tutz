@@ -1,5 +1,6 @@
-const content = 'Rick Sanchez'
-const version = 'version 2'
-const addingCode = 'Code added'
+const content = 'CODM'
+const version = 'version 1'
+const rank = 'Legendary'
 
-console.log(content, version, addingCode);
+
+console.log(content, version, rank);
