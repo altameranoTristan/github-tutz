@@ -1,4 +1,4 @@
-const content = 'Tristan A'
-const version = 'version 1'
+const content = 'Rick Sanchez'
+const version = 'version 2'
 
 console.log(content, version);
