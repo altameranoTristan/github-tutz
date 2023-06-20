@@ -1,5 +1,4 @@
-const content = 'Valorant';
-const version = 'version 1';
-const rank = 'Gold 3';
+const content = 'Tristan B'
+const version = 'version 1'
 
-console.log(content, version, rank);
+console.log(content, version);

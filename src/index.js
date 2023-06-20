@@ -1,6 +1,4 @@
-const content = 'CODM'
+const content = 'Tristan A'
 const version = 'version 1'
-const rank = 'Legendary'
 
-
-console.log(content, version, rank);
+console.log(content, version);
