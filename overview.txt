@@ -37,7 +37,8 @@ git commit      -m "your message ex. version [number]"
         *creates a branch* 
         *github will reject all branches versions, git push -f      will force it*
 
-
+    git config --global alias.abc "Your command you want to create a shortcut"
+    \-> creates a shortcut to a long command 
 ====================================================================================================================================================
 
 git remote add origin [github link]
