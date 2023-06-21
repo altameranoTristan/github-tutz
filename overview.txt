@@ -61,9 +61,15 @@ git push origin master      [*origin* github repo nickname] [*master* local repo
     \-> sets a shortcut      
         git push = git push origin master
 
-git push -f
-\-> will forcefully push the braches repo
+    git push -f
+    \-> will forcefully push the braches repo
 
+git fetch
+\-> will sync the remote repo to our local repo *sync GitHub to our computer*
+
+git pull origin master
+\-> to pull all the remote repo into the local repo
+    more than 2 local repo
 
 
 
